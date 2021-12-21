@@ -1,8 +1,11 @@
 {
   "name": "lib",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
+  "main": "./dist/main.js",
+  "scripts": {
+    "postinstall": "yarn webpack build --mode=development --progress"
+  },
   "dependencies": {
     "source-map-loader": "^3.0.0",
     "ts-loader": "^9.2.6",
