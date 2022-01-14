@@ -4,7 +4,7 @@
   "license": "MIT",
   "main": "./dist/main.js",
   "scripts": {
-    "prepare": "yarn rollup -c"
+    "postinstall": "yarn rollup -c"
   },
   "dependencies": {
     "source-map-loader": "^3.0.0",
