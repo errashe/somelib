@@ -2,9 +2,12 @@
   "name": "lib",
   "version": "1.0.0",
   "license": "MIT",
-  "main": "./dist/main.js",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
   "files": [
-    "./dist/*"
+    "dist/main.js",
+    "dist/main.js.map",
+    "dist/main.d.ts"
   ],
   "scripts": {
     "build": "yarn rollup -c",
